@@ -30,7 +30,7 @@ Chaque script répond à un besoin concret d'automatisation rencontré en enviro
 |---|---|---|
 | `Set-NetworkDHCP.ps1` | Forcer la carte réseau en mode DHCP via GPO au démarrage | 🔄 En cours |
 | `New-OUStructure.ps1` | Création automatique d'OUs par site depuis un fichier de configuration | 🔄 En cours |
-| `Backup-CiscoConfig.ps1` | Sauvegarde des configurations équipements réseau Cisco vers FTP | ⏳ À venir |
+
 
 ---
 
