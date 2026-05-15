@@ -22,7 +22,7 @@ Chaque script répond à un besoin concret d'automatisation rencontré en enviro
 |---|---|---|---|
 | [`Creation_Utilisateurs_Auto.ps1`](./Automatisation-création-users-csv/Creation_Utilisateurs_Auto.ps1) | `Automatisation-création-users-csv/` | Création automatique de comptes AD depuis un fichier Excel — respect de l'arborescence OUs, ajout aux groupes de sécurité, fichier de réponse | Lab TSSR — CreativeFusion Studios |
 | [`Set-NetworkDHCP.ps1`](./Set-NetworkDHCP/Set-NetworkDHCP.ps1) | `Set-NetworkDHCP/`|Forcer la carte réseau en mode DHCP via GPO au démarrage | Lab TSSR — CreativeFusion Studios | 
-| [`New-OUStructure.ps1`](./New-OUStructure/New-OUStructure.ps1) | `New-OUStructure.ps1/` | Création automatique d'OUs par site depuis un fichier de configuration | Lab TSSR — CreativeFusion Studios |
+| [`New-OUStructure.ps1`](./New-OUStructure/New-OUStructure.ps1) | `New-OUStructure/` | Création automatique d'OUs par site depuis un fichier de configuration | Lab TSSR — CreativeFusion Studios |
 ---
 
 ## Structure type d'un script
