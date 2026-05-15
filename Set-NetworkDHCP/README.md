@@ -16,4 +16,4 @@ J'ai utilisé la commande ``` Get-NetIPInterface``` pour sélectionner l'ensembl
 J'ai ensuite trié avec ``` Where-Object { $_.Dhcp -eq "Disabled" -and $_.InterfaceOperationalStatus -eq "Up" }``` 
 pour que l'action ne s'applique qu'aux interfaces actives, dont le DHCP n'était pas activé, cela pour limiter les actions inutiles sur des interfaces non actives ou déjà en DHCP.
 
-Pour ensuite agir ``` ForEach-Object { Set-NetIPInterface -InterfaceIndex $_.InterfaceIndex -Dhcp Enabled }``` ce qui configure les interfaces récupérées plus haut en DHCP.
+Pour ensuite agir avec ``` ForEach-Object { Set-NetIPInterface -InterfaceIndex $_.InterfaceIndex -Dhcp Enabled }``` ce qui configure les interfaces récupérées plus haut en DHCP.
