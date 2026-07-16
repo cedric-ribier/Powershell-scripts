@@ -2,11 +2,11 @@ Import-Module ActiveDirectory
 Import-Module ImportExcel
 Add-Type -AssemblyName System.Web
 
-# === PARAMETRES =============================================================== ! ADAPTER CHEMIN et BASE DN !
+# === PARAMETRES ====== ! ADAPTER CHEMIN et BASE DN ! =====
 
-$ExcelInput  = "%SYSVOL%\Chemin_Du_Fichier-Utilisatuer_A_Cree.xlsx"
-$ExcelOutput = "%SYSVOL%\Chemin_Du_Fichier-Nouveau_Utilisateur_Cree.xlsx"
-$RootOU      = "OU=A-Renseigner,OU=A-Renseigner,DC=domaine,DC=com"
+$ExcelInput = "\Chemin_Du_Fichier-Utilisatuer_A_Cree.xlsx"
+$ExcelOutput = "\Chemin_Du_Fichier-Nouveau_Utilisateur_Cree.xlsx"
+$RootOU = "OU=A-Renseigner,OU=A-Renseigner,DC=domaine,DC=com"
 $Foret = "domaine.com" 
 $CheminRH = "\Repertoire\Partager\RH"
 
